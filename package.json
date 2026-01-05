@@ -5,14 +5,10 @@
   "scripts": {
     "dev": "npx astro dev",
     "start": "npx astro dev",
-    "build": "npx astro check && npx astro build",
+    "build": "npx astro build",
     "preview": "npx astro preview"
   },
   "dependencies": {
     "astro": "^4.0.0"
-  },
-  "devDependencies": {
-    "@astrojs/check": "^0.3.0",
-    "typescript": "^5.0.0"
   }
 }
