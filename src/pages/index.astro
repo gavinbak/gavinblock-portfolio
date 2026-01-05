@@ -1,0 +1,123 @@
+---
+// Your page logic here
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gavin Block - Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Gavin Block</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Hi, I'm Gavin Block</h1>
+      <p>Developer & Creator</p>
+      <p class="intro">
+        Welcome to my portfolio. Here you'll find documentation and showcases 
+        of my projects, experiments, and technical work.
+      </p>
+      <a href="/projects" class="cta">View My Projects →</a>
+    </section>
+  </main>
+</body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f5f5f5;
+  }
+
+  header {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  nav ul a {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #666;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro {
+    max-width: 600px;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  .cta {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .cta:hover {
+    background: #0052a3;
+  }
+</style>
